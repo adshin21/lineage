@@ -1,0 +1,63 @@
+
+b. All Lines
+[{Name: First-- Age: 48}, {Name: Second+ Age: 69}]
+[{Name: First-- Age: 48}, {Name: Second++ Age: 17}]
+[{Name: First- Age: 43}, {Name: Second- Age: 55}, {Name: Third- Age: 63}]
+[{Name: First- Age: 43}, {Name: Second- Age: 55}, {Name: Third-- Age: 28}]
+[{Name: First- Age: 43}, {Name: Second- Age: 55}, {Name: Third-- Age: 68}]
+[{Name: First- Age: 43}, {Name: Second- Age: 55}, {Name: Third--- Age: 69}]
+[{Name: First- Age: 43}, {Name: Second-- Age: 62}, {Name: Third-/ Age: 56}]
+[{Name: First- Age: 43}, {Name: Second-- Age: 62}, {Name: Third-// Age: 36}]
+[{Name: First- Age: 43}, {Name: Second-- Age: 62}, {Name: Third-/// Age: 68}]
+[{Name: First- Age: 43}, {Name: Second-- Age: 62}, {Name: Third-//// Age: 74}]
+[{Name: First-- Age: 48}, {Name: Second++ Age: 29}, {Name: Third+/ Age: 56}]
+[{Name: First-- Age: 48}, {Name: Second++ Age: 29}, {Name: Third+// Age: 36}]
+[{Name: First-- Age: 48}, {Name: Second++ Age: 29}, {Name: Third+/// Age: 94}]
+[{Name: First-- Age: 48}, {Name: Second++ Age: 29}, {Name: Third+//// Age: 74}]
+
+
+b. 1. Shortest line
+{Name: First-- Age: 48} -> {Name: Second+ Age: 69}
+
+b. 2. Largest line
+{Name: First-- Age: 48} -> {Name: Second++ Age: 29} -> {Name: Third+//// Age: 74}
+
+c. All Memebers
+{Name: First- Age: 43}
+{Name: Second- Age: 55}
+{Name: Third- Age: 63}
+{Name: Third-- Age: 28}
+{Name: Third-- Age: 68}
+{Name: Third--- Age: 69}
+{Name: Second-- Age: 62}
+{Name: Third-/ Age: 56}
+{Name: Third-// Age: 36}
+{Name: Third-/// Age: 68}
+{Name: Third-//// Age: 74}
+{Name: First-- Age: 48}
+{Name: Second+ Age: 69}
+{Name: Second++ Age: 29}
+{Name: Third+/ Age: 56}
+{Name: Third+// Age: 36}
+{Name: Third+/// Age: 94}
+{Name: Third+//// Age: 74}
+{Name: Second++ Age: 17}
+
+
+d. Ordered Age
+{Name: Second++ Age: 17}, {Name: Third-- Age: 28}, {Name: Second++ Age: 29}, {Name: Third-// Age: 36}, {Name: Third+// Age: 36}, {Name: First- Age: 43}, {Name: First-- Age: 48}, {Name: Second- Age: 55}, {Name: Third-/ Age: 56}, {Name: Third+/ Age: 56}, {Name: Second-- Age: 62}, {Name: Third- Age: 63}, {Name: Third-/// Age: 68}, {Name: Third-- Age: 68}, {Name: Third--- Age: 69}, {Name: Second+ Age: 69}, {Name: Third-//// Age: 74}, {Name: Third+//// Age: 74}, {Name: Third+/// Age: 94}
+
+e. Lineage Active Range 
+(1212, 1352)
+
+f. Mean Age 
+55.0
+
+g. Median Age 
+56
+
+i. 1. Younges to die 
+{Name: Second++ Age: 17}
+
+i. 2. Oldest to live 
+{Name: Third+/// Age: 94}
